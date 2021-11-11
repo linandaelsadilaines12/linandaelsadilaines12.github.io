@@ -4,38 +4,44 @@
   </head>
     <body bgcolor="pink">
 	    <a href="https://linandaelsadilaines12.github.io"> Menu</a> 
-
-<h1 style="color:brown">Belajar CSS Dasar</h1>
+	    <p>
+<p>
+<style>
+<!--
+<h1 style="color:pink">Belajar CSS Dasar</h1>
 <style type="text/css">
  <!--
- .style1 {color: green;
+ .style1 {color: purple;
  font-style: italic;}
- #style2 {color: blue;
+ #style2 {color: red;
  font-weight: bold;}
 -->
- </style>
-
-	<p class="style1">
- Ini paragraf pertama
- <p id="style2">
- Ini paragraf kedua sayaa
- <p class="style1">
- Ini paragraf ketiga
-		 	    
+</style>
 <style type="text/css">
  <!--
- .border1 {border: 1px solid red;
- padding: 10px;}
- .border2 {border: 1px solid red;
- padding: 20px 10px 5px 40px;}
+ .round {
+ background-color: #D5A6BD;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border: 2px solid #897048;
+ padding: 10px;
+ width: 310px;
+ }
  -->
-</style>
-	<p class ="border1"> HALLO NAMA SAYA LINANDA ELSA D
-	<br> SALAM KENAL TEAMAN-TEMAN ,JAGA KESEHATAN YA &#9829
-	<p class="border2">
-	Saya dari prodi Pendidikan Akuntansi
-	 
-<p>
+ </style>
+</head>
+<body>
+ <div class="round">
+ Apakar teman-teman
+ </div>
+  <br/>
+  <div class="round">
+ salam kenal ya
+ </div>
+ <br />
+ <div class="round">
+ Selalu jaga kesehatan ya :)
+ </div>
 	
  </style>
 </body>
